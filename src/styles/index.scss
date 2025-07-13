@@ -1,3 +1,20 @@
 body {
   margin: 0;
 }
+
+.calendar {
+  width: 700px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  gap: 1px;
+  .calendar__day {
+    width: 99px;
+    height: 99px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    background-color: #eee;
+  }
+}
